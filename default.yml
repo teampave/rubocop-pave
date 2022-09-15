@@ -6,7 +6,7 @@ require:
 AllCops:
   NewCops: enable
   Exclude:
-    - 'vendor/**/*'
+    - "vendor/**/*"
     - "config/**/*"
     - "bin/**/*"
     - "db/structure.sql"
@@ -61,6 +61,10 @@ RSpec/StubbedMock:
 
 RSpec/MultipleMemoizedHelpers:
   Max: 10
+
+RSpec/FilePath:
+  Exclude:
+    - "spec/requests/**/*"
 
 Metrics/BlockLength:
   Enabled: true
