@@ -27,9 +27,6 @@ Style/NumericLiterals:
 Style/HashSyntax:
   EnforcedShorthandSyntax: never
 
-Layout/LineLength:
-  Max: 140
-
 Layout/FirstMethodArgumentLineBreak:
   Enabled: true
 
