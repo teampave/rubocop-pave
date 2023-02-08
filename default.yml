@@ -74,3 +74,6 @@ Metrics/BlockLength:
 
 Rails/NotNullColumn:
   Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  AllowedPatterns: ['change']
