@@ -63,7 +63,7 @@ RSpec/StubbedMock:
 RSpec/MultipleMemoizedHelpers:
   Max: 20
 
-RSpec/FilePath:
+RSpec/SpecFilePathFormat:
   Exclude:
     - "spec/requests/**/*"
 
