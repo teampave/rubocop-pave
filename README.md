@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :test, :development do
-  gem 'rubocop-pave'
+  gem 'rubocop-pave', require: false
 end
 ```
 
